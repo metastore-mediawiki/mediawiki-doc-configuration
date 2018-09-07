@@ -138,7 +138,7 @@ switch ( $srvHost ) {
 	# ------------------------------------------------------------------------------------------------------------------
 
 	default:
-		header( 'HTTP/1.1 404 Not Found' );
+		http_response_code( 404 );
 		echo 'This wiki is not available. Check configuration.';
 		exit( 0 );
 }
