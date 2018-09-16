@@ -94,7 +94,7 @@ switch ( $srvHost ) {
 		require_once( __DIR__ . '/app/src/domain.furs-wiki-craft.php' );
 		break;
 
-	# Domain: furs.*
+	# Domain: fursona.info
 	# ------------------------------------------------------------------------------------------------------------------
 
 	case 'fursona.info':
@@ -132,6 +132,13 @@ switch ( $srvHost ) {
 
 	case 'xenforo.help':
 		require_once( __DIR__ . '/app/src/domain.xenforo-help.php' );
+		break;
+
+	# Domain: lurkfur.com
+	# ------------------------------------------------------------------------------------------------------------------
+
+	case 'lurkfur.com':
+		require_once( __DIR__ . '/app/src/domain.lurkfur-com.php' );
 		break;
 
 	# Exit: 404.
