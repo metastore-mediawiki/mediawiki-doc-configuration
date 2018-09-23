@@ -57,7 +57,6 @@ $wgCaptchaTriggers['create'] = true;
  */
 
 wfLoadExtension( 'InputBox' );
-$wgGroupPermissions['sysop']['interwiki'] = true;
 
 /**
  * ---------------------------------------------------------------------------------------------------------------------
@@ -66,6 +65,7 @@ $wgGroupPermissions['sysop']['interwiki'] = true;
  */
 
 wfLoadExtension( 'Interwiki' );
+$wgGroupPermissions['sysop']['interwiki'] = true;
 
 /**
  * ---------------------------------------------------------------------------------------------------------------------
@@ -385,3 +385,9 @@ wfLoadExtension( 'MW_EXT_License' );
 
 # MW_EXT_Spoiler
 wfLoadExtension( 'MW_EXT_Spoiler' );
+
+# MW_EXT_EditorToolbar
+wfLoadExtension( 'MW_EXT_EditorToolbar' );
+
+# MW_EXT_EditorSummaryButtons
+wfLoadExtension( 'MW_EXT_EditorSummaryButtons' );
