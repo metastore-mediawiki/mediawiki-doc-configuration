@@ -348,7 +348,7 @@ wfLoadExtension( 'MW_EXT_Kernel' );
 wfLoadExtension( 'MW_EXT_Theme' );
 
 # MW_EXT_Meta
-wfLoadExtension( 'MW_EXT_Meta' );
+wfLoadExtension( 'MW_EXT_META' );
 
 # MW_EXT_SEO
 wfLoadExtension( 'MW_EXT_SEO' );

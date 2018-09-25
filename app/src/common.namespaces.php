@@ -30,6 +30,6 @@
  * ---------------------------------------------------------------------------------------------------------------------
  */
 
-$wgNamespacesWithSubpages[ NS_MAIN ]        = true;
-$wgNamespacesWithSubpages[ NS_TEMPLATE ]    = true;
+$wgNamespacesWithSubpages[ NS_MAIN ]     = true;
+$wgNamespacesWithSubpages[ NS_TEMPLATE ] = true;
 //$wgNamespacesWithSubpages[ NS_EXT_SANDBOX ] = true;
