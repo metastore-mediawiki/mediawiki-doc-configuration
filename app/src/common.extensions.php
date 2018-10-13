@@ -157,11 +157,11 @@ wfLoadExtension( 'AntiSpoof' );
  * ---------------------------------------------------------------------------------------------------------------------
  */
 
-wfLoadExtension( 'Cargo' );
-$wgCargoDBtype     = extGetConfig( 'extension' )['cargo']['db']['type'];
-$wgCargoDBserver   = extGetConfig( 'extension' )['cargo']['db']['server'];
-$wgCargoDBuser     = extGetConfig( 'extension' )['cargo']['db']['user'];
-$wgCargoDBpassword = extGetConfig( 'extension' )['cargo']['db']['password'];
+# wfLoadExtension( 'Cargo' );
+# $wgCargoDBtype     = extGetConfig( 'extension' )['cargo']['db']['type'];
+# $wgCargoDBserver   = extGetConfig( 'extension' )['cargo']['db']['server'];
+# $wgCargoDBuser     = extGetConfig( 'extension' )['cargo']['db']['user'];
+# $wgCargoDBpassword = extGetConfig( 'extension' )['cargo']['db']['password'];
 
 /**
  * ---------------------------------------------------------------------------------------------------------------------

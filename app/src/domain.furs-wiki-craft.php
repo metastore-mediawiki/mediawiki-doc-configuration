@@ -54,11 +54,3 @@ $wgCachePrefix = 'mw-furs-wiki-craft';
 
 $wgLogo    = $wgResourceBasePath . '/ext-network/resources/assets/images/logo/logo.04.001.512.svg.png';
 $wgFavicon = $wgResourceBasePath . '/ext-network/resources/assets/images/favicon/favicon.furs.ico';
-
-/**
- * ---------------------------------------------------------------------------------------------------------------------
- * Local: Extension.Custom - Cargo.
- * ---------------------------------------------------------------------------------------------------------------------
- */
-
-$wgCargoDBname = $wgDBname . '_cargo';

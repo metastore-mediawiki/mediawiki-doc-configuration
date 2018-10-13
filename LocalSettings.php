@@ -56,6 +56,13 @@ switch ( $srvHost ) {
 		require_once( __DIR__ . '/app/src/domain.common.store.php' );
 		break;
 
+	# Domain: common.base
+	# ------------------------------------------------------------------------------------------------------------------
+
+	case 'base.metadata.cloud':
+		require_once( __DIR__ . '/app/src/domain.common.base.php' );
+		break;
+
 	# Domain: furs.*
 	# ------------------------------------------------------------------------------------------------------------------
 

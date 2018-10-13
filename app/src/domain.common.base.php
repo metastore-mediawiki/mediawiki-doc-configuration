@@ -10,8 +10,8 @@ if ( ! defined( 'MEDIAWIKI' ) ) {
  * ---------------------------------------------------------------------------------------------------------------------
  */
 
-$wgSitename = 'События FURRY / ФУРРИ';
-$wgServer   = 'https://event.furs.wiki';
+$wgSitename = 'METADATA / BASE';
+$wgServer   = 'https://base.metadata.cloud';
 
 /**
  * ---------------------------------------------------------------------------------------------------------------------
@@ -19,15 +19,7 @@ $wgServer   = 'https://event.furs.wiki';
  * ---------------------------------------------------------------------------------------------------------------------
  */
 
-$wgDBname = extGetConfig( 'project' )['furs.wiki.event']['db']['name'];
-
-/**
- * ---------------------------------------------------------------------------------------------------------------------
- * Local: Shared sessions.
- * ---------------------------------------------------------------------------------------------------------------------
- */
-
-$wgCookieDomain = '.furs.wiki';
+$wgDBname = extGetConfig( 'project' )['base']['db']['name'];
 
 /**
  * ---------------------------------------------------------------------------------------------------------------------
@@ -35,8 +27,8 @@ $wgCookieDomain = '.furs.wiki';
  * ---------------------------------------------------------------------------------------------------------------------
  */
 
-$wgSecretKey  = extGetConfig( 'project' )['furs.wiki.event']['key']['secret'];
-$wgUpgradeKey = extGetConfig( 'project' )['furs.wiki.event']['key']['upgrade'];
+$wgSecretKey  = extGetConfig( 'project' )['base']['key']['secret'];
+$wgUpgradeKey = extGetConfig( 'project' )['base']['key']['upgrade'];
 
 /**
  * ---------------------------------------------------------------------------------------------------------------------
@@ -44,7 +36,7 @@ $wgUpgradeKey = extGetConfig( 'project' )['furs.wiki.event']['key']['upgrade'];
  * ---------------------------------------------------------------------------------------------------------------------
  */
 
-$wgCachePrefix = 'mw-furs-wiki-event';
+$wgCachePrefix = 'mw-base';
 
 /**
  * ---------------------------------------------------------------------------------------------------------------------
@@ -52,5 +44,12 @@ $wgCachePrefix = 'mw-furs-wiki-event';
  * ---------------------------------------------------------------------------------------------------------------------
  */
 
-$wgLogo    = $wgResourceBasePath . '/ext-network/resources/assets/images/logo/logo.04.001.512.svg.png';
-$wgFavicon = $wgResourceBasePath . '/ext-network/resources/assets/images/favicon/favicon.furs.ico';
+$wgLogo = $wgResourceBasePath . '/ext-network/resources/assets/images/logo/logo.01.001.512.svg.png';
+
+/**
+ * ---------------------------------------------------------------------------------------------------------------------
+ * Local: Extension.Custom - CirrusSearch.
+ * ---------------------------------------------------------------------------------------------------------------------
+ */
+
+$wgCirrusSearchIndexBaseName = 'wm_base';
