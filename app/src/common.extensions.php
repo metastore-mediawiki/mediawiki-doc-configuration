@@ -304,6 +304,14 @@ $wgShortUrlTemplate = '/index.php/Special:ShortUrl/$1';
 
 /**
  * ---------------------------------------------------------------------------------------------------------------------
+ * Global: Extension.Custom - SubPageList3.
+ * ---------------------------------------------------------------------------------------------------------------------
+ */
+
+wfLoadExtension( 'SubPageList3' );
+
+/**
+ * ---------------------------------------------------------------------------------------------------------------------
  * Global: Extension.Custom - TextExtracts.
  * ---------------------------------------------------------------------------------------------------------------------
  */
@@ -391,3 +399,6 @@ wfLoadExtension( 'MW_EXT_EditorToolbar' );
 
 # MW_EXT_EditorSummaryButtons
 wfLoadExtension( 'MW_EXT_EditorSummaryButtons' );
+
+# MW_EXT_EditorWikificator
+wfLoadExtension( 'MW_EXT_EditorWikificator' );
